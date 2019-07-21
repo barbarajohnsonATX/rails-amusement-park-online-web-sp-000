@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Ride < ApplicationRecord
     belongs_to :user 
     belongs_to :attraction
@@ -46,4 +47,9 @@ class Ride < ApplicationRecord
 
     end 
 
+=======
+class Ride < ActiveRecord::Base
+  belongs_to :user 
+  belongs_to :attraction
+>>>>>>> d95afdb8f3b6170a58920c5ad64f722fad9cae7b
 end

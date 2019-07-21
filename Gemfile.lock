@@ -1,9 +1,12 @@
+<<<<<<< HEAD
 GIT
   remote: https://github.com/codahale/bcrypt-ruby.git
   revision: 011b67ba550457dab5d6084128888f08476f278a
   specs:
     bcrypt (3.1.13)
 
+=======
+>>>>>>> d95afdb8f3b6170a58920c5ad64f722fad9cae7b
 GEM
   remote: https://rubygems.org/
   specs:
@@ -53,6 +56,10 @@ GEM
     arel (9.0.0)
     autoprefixer-rails (9.6.1)
       execjs
+<<<<<<< HEAD
+=======
+    bcrypt (3.1.13)
+>>>>>>> d95afdb8f3b6170a58920c5ad64f722fad9cae7b
     bindex (0.8.1)
     bootsnap (1.4.4)
       msgpack (~> 1.0)
@@ -216,7 +223,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+<<<<<<< HEAD
   bcrypt!
+=======
+  bcrypt (~> 3.1.7)
+>>>>>>> d95afdb8f3b6170a58920c5ad64f722fad9cae7b
   bootsnap
   bootstrap-sass (= 3.3.7)
   byebug
@@ -240,4 +251,8 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 BUNDLED WITH
+<<<<<<< HEAD
    2.0.2
+=======
+   2.0.1
+>>>>>>> d95afdb8f3b6170a58920c5ad64f722fad9cae7b
